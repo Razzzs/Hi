@@ -1,15 +1,14 @@
-#if i ever want to give up
+#ask question
+bad = 'Its okay baby. Im always here.'
+good = 'You are awesome, and pretty, and smart.'
 
-yes = 'go sleep'
-no = 'if not tired'
+question = input('Hi baby! how are you? ')
 
-question = input('Are you tired? ')
-
-if question.lower() == 'yes':
-    answer = input('Why? ')
-    print(f'You said you are tired. {yes}')
-elif question.lower() == 'no':
-    answer = input('Why not? ')
-    print(f'You said you are not tired. {no}')
+if question.lower() == 'bad':
+    answer = input('Why? tell me.. ')
+    print(f'{bad}')
+elif question.lower() == 'good':
+    answer = input('really?! Thats great! tell me! ')
+    print(f'{good}')
 else:
-    print('Invalid response. Please enter "yes" or "no".')
+    print('Invalid response. Please enter "bad" or "good".')
