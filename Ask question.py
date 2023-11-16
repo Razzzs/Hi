@@ -1,0 +1,15 @@
+bad = 'Its okay baby. Im always here.'
+good = 'You are awesome, and pretty, and smart.'
+
+question = input('Hi baby! how are you? ')
+
+if question.lower() == 'bad':
+    answer = input('Why? tell me.. ')
+    print(f'{bad}')
+elif question.lower() == 'good':
+    answer = input('really?! Thats great! tell me! ')
+    print(f'{good}')
+else:
+    print('Invalid response. Please enter "bad" or "good".')
+
+
